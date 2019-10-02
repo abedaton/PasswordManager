@@ -78,22 +78,21 @@
         app:layout_constraintVertical_bias="0.67" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#00D0D0D0"
+        android:layout_marginStart="4dp"
         android:clickable="true"
-        android:soundEffectsEnabled="false"
-        android:tint="#000000"
-        app:borderWidth="0dp"
+        android:src="@drawable/ic_settings_black_24dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:backgroundTint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintHorizontal_bias="0.954"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428"
-        app:rippleColor="#00424681"
-        tools:srcCompat="@drawable/ic_settings_black_24dp" />
+        app:layout_constraintVertical_bias="0.976"
+        app:borderWidth="0dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
